@@ -1,0 +1,1121 @@
+<!DOCTYPE HTML ><!-- message_detail.jsp -->
+
+<html  lang="en-US-NECC">
+ <head>
+  <title>Thread: Ahmed Aziyar Final Portfolio Presentation &ndash; Fall...</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2020 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e99ceaa32b",applicationID:"9734725"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3800.0.4-rel.9+8bf5305" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/theme.css?v=3800.0.4-rel.9+8bf5305" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/app_nav.css?v=3800.0.4-rel.9+8bf5305" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/branding/_1_1/brand.css?ts=1502953124000&v=3800.0.4-rel.9+8bf5305" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/webapps/discussionboard/css/discussion_board.css?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305" id="css_4">
+     <link rel="stylesheet" type="text/css" href="/webapps/discussionboard/css/as_2012/discussion_board.css?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305" id="css_5">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305" id="css_6">
+     <link rel="stylesheet" type="text/css" href="/webapps/allyintegration/css/ally-integration.css?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305" id="css_7">
+          <style type="text/css" id="courseMenuCustomCSS">
+
+
+.noteditmode .listCm .courseMenu a:hover span, 
+.noteditmode .listCm .courseMenu a:focus span {
+	color:#003399!important;
+}
+
+#courseMenuPalette_paletteTitleHeading h3 {
+   background-color: #FFFFFF;
+}
+
+#courseMenu_folderView ul {
+   background-color: #FFFFFF;
+}
+
+#courseMenuPalette div.navPaletteContent ul li a,
+#courseMenuPalette h3 a,
+#previewCourseMenu h3 a,
+.navPaletteContent h3 a.submenuLink:before,
+.navPaletteContent h3 a.submenuLink_active:before,
+#courseMenuPalette div.navPaletteContent ul li a span,
+#courseMenuPalette .navPaletteContent .subhead
+{
+  color: #003399;
+  text-shadow: none;
+  /*should only be 2012*/
+}
+
+#courseMenuPalette ul.courseMenu li.divider hr
+{
+  background-color: #003399;
+}
+
+#courseMenuPalette ul.courseMenu li h4
+{
+  color: #003399;
+}
+
+#courseMenuPalette h4.treehead
+{
+  color: #003399;
+}
+
+#courseMenuPalette div.navPaletteContent
+{
+  background-color: #FFFFFF;
+}
+
+#courseMenuPalette_contents li {
+  background-color: #FFFFFF;
+}
+
+/*Active course menu view bubble stem*/
+#courseMenuPalette .actionBarMicro .active > a:after {
+  border-bottom-color: #FFFFFF;
+}
+
+/* 2016 Theme override default blue and white on course creation */
+
+
+
+/* if theme is classic */
+
+</style>
+      <style type="text/css">.topGlobalLinks a.home{background-image:url(/images/console/icons/home_0.gif)}.bottom-buttons-home a{background-image:url(/images/console/icons/home_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.help{background-image:url(/images/console/icons/help_0.gif)}.bottom-buttons-help a{background-image:url(/images/console/icons/help_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.logout{background-image:url(/images/console/icons/logout_0.gif)}.global-nav-bar .logout-link,.global-nav-bar .logout-link:hover,.global-nav-bar .logout-link:focus{background-image:url(/images/console/icons/logout_0.gif);background-repeat:no-repeat;background-position:50% 0}</style>
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3800.0.4-rel.9+8bf5305">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3800.0.4-rel.9+8bf5305"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to 5 decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to 5 decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/javascript/prototype.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.min.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery-noconflict.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/fastinit.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/page.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/validateForm.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/numberLocalizer.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/popup.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/cookie.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/lz-string.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/client_cache.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/globalNavigation.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/UserDataDWRFacade.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/MashupDWRFacade.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/esapi-compressed.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/i18n/ESAPI_Standard_en_US.properties.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/Base.esapi.properties.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/js/message.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/js/message_collection.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/message/evalscripts.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/js/message_tree.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/js/auto_mark_read.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr/interface/MessageManagementService.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/dwr/engine.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/builder.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/effects.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/dragdrop.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/controls.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/slider.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/lightbox.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/titlebartagutils.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/actionPanel.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/calendar-time.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/CourseMenuDWRFacade.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/UserPageInstructionsSettingDWRFacade.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/breadcrumbs.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/tree.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/ngui/coursemenu.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/dwr/util.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/portal/global_nav_menu.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/UserDWRFacade.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/bb-social-learning-BBLEARN/js/mybb.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/ToolActivityService.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/bb-gate-BBLEARN/js/tool_service.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/bb-social-learning-BBLEARN/js/social.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/discussionboard/dwr_open/interface/ProfileProviderService.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/browserSpecificBehavior.js?v=3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/videointegration/js/video-integration.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/webapps/allyintegration/js/ally-integration.js?v=3800.0.4-rel.9+8bf5305_3800.0.4-rel.9+8bf5305"></script>
+    <script type="text/javascript" src="/javascript/quick_links.js?v=3800.0.4-rel.9+8bf5305"></script>
+    </head>
+  <body id="learn-oe-body" class='thread-detail-page'>
+  
+<h1 class="hideoff hideFromQuickLinks">Open Quick Links</h1><div id=quick_links_wrap><a id=quick_links_lightbox_link href="#" onclick="quickLinks.lightboxHelper.toggleLightbox(); return false;" role=button aria-haspopup=true tabindex=1 title="Open&#x20;Quick&#x20;Links">Quick Links</a></div><div id=quickLinksLightboxDiv class=hideoff aria-hidden=true style="display:none"><div class=ax-content><div class=content-lite><div id=quick_links_landmarks_section><h2 class=hideFromQuickLinks>Page Landmarks</h2><ul class=shortcut-list id=quick_links_landmark_list></ul></div><div id=quick_links_headings_section><h2 class=hideFromQuickLinks>Content Outline</h2><ul class=shortcut-list id=quick_links_heading_list></ul></div></div><div id=quick_links_hotkeys_section class=legend><h2 class=hideFromQuickLinks>Keyboard Shortcuts</h2><ul class=keycombos id=quick_links_hotkey_list></ul></div></div></div><h1 class="hideoff hideFromQuickLinks"></h1><div class=global-nav-bar-wrap><div class=global-nav-bar-wrap-mobile-nav><button class="hamburger hamburger--squeeze" type=button><span class=hamburger-box><span class=hamburger-inner></span></span></button></div><div class="global-nav-bar logout"><a id="topframe.logout.label" href="/webapps/login/?action=logout" target=_top class="nav-link logout-link" title=Logout> Logout</a></div><div id=global-nav class=global-nav-bar role=navigation data-preview=false><div class=hideoff>Global Menu</div><button id=global-nav-link class="nav-link u_floatThis-right" href="#global-nav-flyout" aria-haspopup=true aria-controls=global-nav-flyout tabindex=1 accesskey=m title="Open&#x20;Global&#x20;Navigation&#x20;Menu"><img src="/avatar/default_user?ts=1525262400000" alt="" id=global-avatar dataToolTitle="User Avatar Image" class=global-top-avatar /> Ahmed Salek Aziyar<span id=badgeTotal style="visibility: hidden" title=""><span class=hideoff id=badgeAXLabel>Activity Updates</span><span class=badge id=badgeTotalCount title=""></span></span><img src="/images/ci/mybb/arrowDown-topnav.png" alt="Expand Global Nav" id=global-toggle-img class=global-toggle /></button><div id=global-nav-flyout class=flyout-menu style="display: none;"><ul id=bottomButtons class=bottom-buttons><li class=bottom-buttons-home><a id="topframe.home.label" href="http://www.necc.mass.edu/" target=_blank class=home title=Home> Home</a></li><li class=bottom-buttons-help><a id="topframe.help.label" href="#" onClick="globalNavigation.openHelpWindow('http://help.blackboard.com/');" class=help title=Help> Help</a></li></ul></div></div></div>
+<!-- global_nav.jsp -->
+
+<div id="globalNavPageNavArea">
+    <table class="bouncer" summary="Top frame table" role="presentation">
+      <tr>
+        <td>
+          <div class="topTabs bgBanner" id="topTabs">
+  
+            <div class="brandingImgWrap">
+              <a href="http://neccbb.blackboard.com/" target="_blank" title="NECC Blackboard Learn">
+                <img  src="/branding/_1_1/NECCbluegoldshield_wBA4674.gif"  alt="NECC Blackboard Learn" title="NECC Blackboard Learn" class="bannerImage"/>
+</a>
+            </div>
+  
+            <div class="tabWrapper-right">
+              <H2 CLASS="hideoff">Top Frame Tabs</H2>
+              <table class="appTabs transparent" id="appTabList" summary="Tab List table" role="presentation">
+                <tr>
+                 <td id="My Blackboard"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1" TARGET="_top"><span>My Blackboard</span>
+                        <span class="hideoff"> Tab 1 of 4</span>
+                      </a>
+                    </td>
+                  <td id="Courses.label"  class="active"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_2_1" TARGET="_top"><span>Courses</span>
+                        <span class="hideoff"> Tab 2 of 4&nbsp;(active tab)</span>
+                      </a>
+                    </td>
+                  <td id="Student Resources"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_4_1" TARGET="_top"><span>Student Resources</span>
+                        <span class="hideoff"> Tab 3 of 4</span>
+                      </a>
+                    </td>
+                  <td id="Community.label"  >
+                      <a href="/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_83_1" TARGET="_top"><span>Community</span>
+                        <span class="hideoff"> Tab 4 of 4</span>
+                      </a>
+                    </td>
+                  </tr>
+              </table>
+              <div class="clearfloats"></div>
+            </div>
+            </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<div id="globalNavPageContentArea">
+
+<h2 class="hideoff">
+ Current Location
+</h2>
+
+<div id="breadcrumbs" class="breadcrumbs clearfix ">
+ <div class="breadcrumb-controls clearfix" id="breadcrumb_controls_id">
+
+
+
+
+
+<div id="helpTextToggle" class="helpLink hidden">
+  <a href="#" id="helpTextToggleLink" class="browseIcon">
+	<img id="helpTextToggleImg" src="/images/ci/ng/small_help_on2.gif" alt="Turn help text off and on"/></a>
+</div>
+ <input type='hidden' name='showHelperSetting' id='showHelperSetting' value=''>
+ </div>
+
+ <div class="path  noToggle" role="navigation">
+ <ol class="clearfix">
+    	<li
+    class="root coursePath"
+        > <a href="/webapps/blackboard/execute/courseMain?course_id=_36802_1"  title="Fall Term 2020 - Linux Administration (CIS-245-O1A) (7817.202009)">        <span id="crumb_1">
+                      Fall Term 2020 - Linux Administration (CIS-245-O1A) (7817.202009)
+                  </span>
+      </a>      <div id="arrowContext_1"
+         class="courseArrow"       onClick="page.ContextMenu.changeArrowInBreadcrumb(1, event );">
+<span class="contextMenuContainer" style=" display: inline;" bb:menuGeneratorURL="/webapps/blackboard/execute/getCrossCourseMenuHTML?course_id=_36802_1" bb:navItem="" bb:contextParameters="" bb:menuOrder="" bb:overwriteNavItems="" bb:beforeShowFunc="">
+   
+  <a  id="cmlink_769c761ec56a4204b4f76cf5f9055df4" onfocus="page.ContextMenu.LI(event, 'cmdiv_769c761ec56a4204b4f76cf5f9055df4',false);" onmouseover="page.ContextMenu.LI(event, 'cmdiv_769c761ec56a4204b4f76cf5f9055df4',false);" class="cmimg editmode jsInit  " href="#contextMenu" title="Course-to-Course Navigation"> <img src="/images/ci/icons/cmlink_generic.gif" alt="Course-to-Course Navigation" ></a>
+  <div id="cmdiv_769c761ec56a4204b4f76cf5f9055df4" class="cmdiv" style="display: none;">
+   <ul id="cmul0_769c761ec56a4204b4f76cf5f9055df4"> 
+    <li class="contextmenubar_top">
+      <a href="#close" class="close-menu">
+        <span class="close-contextmenu" data-icon="X" role="presentation" aria-hidden="true"></span>
+        <img alt="Close Menu" src="/images/ci/ng/close_mini.gif"></a>
+    </li>      
+       </ul>   
+  </div>
+</span>
+</div>    </li>
+   	<li
+        > <a href="/webapps/discussionboard/do/conference?toggle_mode=read&action=list_forums&course_id=_36802_1&nav=discussion_board_entry"  title="Discussion Board">        <span id="crumb_2">
+                      Discussion Board
+                  </span>
+      </a>          </li>
+   	<li
+        > <a href="/webapps/discussionboard/do/forum?action=list_threads&forum_id=_108407_1&conf_id=_41027_1&course_id=_36802_1&nav=discussion_board_entry"  title="Forum: Final Portfolio Presentation">        <span id="crumb_3">
+                      Forum: Final Portfolio Presentation
+                  </span>
+      </a>          </li>
+   	<li
+    class="placeholder"        >         <span id="crumb_4">
+                      Thread: Ahmed Aziyar Final Portfolio Presentation
+                  </span>
+                </li>
+  </ol>
+ </div>
+
+</div>
+
+<div class="locationPane">
+ <nav role="navigation" aria-label="Course Menu" id="navigationPane" class="navigationPane ">
+ 
+ <div id="menuWrap" class="menuWrap" >
+  <div id="puller" >
+  <a id="menuPuller" class="clickpuller" title="Hide Course Menu" href="#">
+   <img id="expander" alt="Hide Course Menu" src="/images/spacer.gif"/>
+  </a>
+ </div>
+<div class="menuWrap-inner">
+  <div id="courseMenuPalette" class="navPalette listCm navPaletteExpCol"><div class="actionBarMicro clearfix"><h2 class="hideoff">Menu Management Options</h2><ul class="nav clearfix u_floatThis-right"><li id="refreshMenuLink" class="secondaryButton "><a href="#" title="Refresh"><span><img src="/images/ci/ng/small_refresh.gif" alt="Refresh"></span></a></li><li id="courseMapButton" class="secondaryButton "><a href="#" title="Display Course Menu in a Window"><span><img src="/images/ci/ng/small_new_window.gif" alt="Display Course Menu in a Window"></span></a></li></ul></div><div class="navPaletteContent"><h2 class="hideoff" tabindex="-1">Course Menu:</h2><div id="courseMenuPalette_paletteTitleHeading"><div class="navPaletteTitle"><h3><a href="#" role="button" aria-expanded="true" class="comboLink" aria-controls="courseMenuPalette_contents" title="Collapse Fall Term 2020 - Linux Administration (CIS-245-O1A) (7817.202009)" id="courseMenu_link">Fall Term 2020 - Linux Administration (CIS-245-O1A) (7817.202009)</a></h3><h3><a href="/webapps/blackboard/execute/courseMain?course_id=_36802_1" target="" class="submenuLink" id="courseMenu_combo" title="Go to Course Entry Page"><img src="/images/ci/icons/generic_dbl_arrow_right.gif" alt="Course Entry Page"></a></h3></div></div><ul id="courseMenuPalette_contents" class="courseMenu"><li id="paletteItem:_355222_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_111_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Announcements">Announcements</span></a></li><li id="paletteItem:_355214_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_36802_1&content_id=_2048262_1&mode=reset" target="_self"><span title="Read Me First">Read Me First</span></a></li><li id="paletteItem:_391921_1" class="clearfix divider"><hr></li><li id="paletteItem:_391918_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_36802_1&content_id=_2175197_1&mode=reset" target="_self"><span title="Assignments">Assignments</span></a></li><li id="paletteItem:_391919_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_36802_1&content_id=_2175198_1&mode=reset" target="_self"><span title="Learning Modules">Learning Modules</span></a></li><li id="paletteItem:_391920_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_36802_1&content_id=_2175199_1&mode=reset" target="_self"><span title="Web Links">Web Links</span></a></li><li id="paletteItem:_391922_1" class="clearfix divider"><hr></li><li id="paletteItem:_355217_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_119_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Discussions">Discussions</span></a></li><li id="paletteItem:_391923_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_1870_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Wiki">Wiki</span></a></li><li id="paletteItem:_391924_1" class="clearfix divider"><hr></li><li id="paletteItem:_400707_1" class="clearfix "><a href="/webapps/blackboard/content/listContent.jsp?course_id=_36802_1&content_id=_2281957_1&mode=reset" target="_self"><span title="NECC Resources">NECC Resources</span></a></li><li id="paletteItem:_400708_1" class="clearfix divider"><hr></li><li id="paletteItem:_355220_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_133_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="My Grades">My Grades</span></a></li><li id="paletteItem:_355219_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_1822_1&tool_type=TOOL&mode=view&mode=reset" target="_self"><span title="Calendar">Calendar</span></a></li><li id="paletteItem:_355218_1" class="clearfix "><a href="/webapps/blackboard/content/launchLink.jsp?course_id=_36802_1&tool_id=_135_1&tool_type=TOOL&mode=view&mode=reset" target="_blank"><span title="Help">Help</span></a></li><li id="paletteItem:_355221_1" class="clearfix "><a href="https://mynecc.necc.mass.edu/" target="_blank"><span title="Back to Portal">Back to Portal</span></a></li></ul></div></div>
+  </div>
+ </div>
+ </nav>
+ <div role="main" id="contentPanel" class="contentPane ok ">
+<div class="shadow">
+       <div id="editmodeWrapper"> 
+ 
+  <div id="content" class="contentBox contentBox-edit">
+   
+<div id="pageTitleDiv" class="pageTitle clearfix ">
+
+  
+<div id="pageTitleBar" class='pageTitleIcon' tabindex="0">
+    <img src="/images/ci/sets/set01/discussion_on.gif" alt="" id="titleicon"><h1 id="pageTitleHeader" tabindex="-1" ><span id="pageTitleText">
+  Thread: Ahmed Aziyar Final Portfolio Presentation  </span></h1>
+        <span id="_titlebarExtraContent" class="titleButtons"></span>
+</div>
+
+
+
+</div>
+
+          <!-- Begin Action Control bar. -->
+    <div class="actionBar editmode clearfix" id="actionbar">
+      <h2 class="quickLink hideoff">Actions for Content Page</h2>
+            	      <ul class="nav clearfix u_floatThis-right" id="navsecondary">
+		    		      				  
+<li class="secondaryButton"><a id="refreshTreeActionButtonId" href="javascript:Message.refreshTree();"   >Refresh</a></li>
+
+				  			  			  			  		      		      
+<li class="secondaryButton" id="searchActionButtonId">
+  <a href="#" title="Search" onClick="actionPanel.togglePanel('panelsearchActionButtonId','searchActionButtonId'); return false;" aria-expanded="false" aria-controls="panelsearchActionButtonId">
+    <span class="hideoff" id="searchActionButtonId_span"> Show </span>
+    Search
+  </a>
+</li>
+		      		    	      </ul>
+          </div>
+    <!-- End Action Control bar. -->
+<div class="containerOptions">
+    <!-- Begin Action Panel List. -->
+				    <div class=" editmode liveArea" id="panelsearchActionButtonId" style="display:none;">
+      <form  method="post" name="dateAvailabilityForm" id="searchForm">
+
+<fieldset>
+    <legend><span class="hideoff"><label for="searchKey">Search</label></span></legend>
+    <ol>
+      <li class="groupLabel" >Search</li>
+      <li>
+        <label for="searchfor" class="hideoff">Search</label>
+          <input type="text" name="searchKey" id="searchKey" value=""  size="25"   onkeypress="checkSearch(event);"   />
+
+
+ 
+<label for="fFilterSearch">in</label>
+        <select id="fFilterSearch" name="filterSearch" title="Attribute">
+          <option value="thread" selected>Current Thread</option>
+          <option value="forum">Current Forum</option>
+          <option value="conference">Current Discussion Board</option>
+          <option value="course">All Forums in Course</option>
+          </select>
+        &nbsp;
+      </li>
+      <li>
+        <!-- START date range picker -->
+<div>
+      <input id="start_restrict" type="checkbox"  name="restrict_start_checkbox" value=""  />
+       <label for="start_restrict">
+        After
+     </label> 
+    <label for="dp_restrict_start_date" class="hideoff">Start Date</label>
+  <span class="dateTimeErrorDiv"></span>
+  <input size="14" id="dp_restrict_start_date" name="restrict_start_date" class="datePickerInput"   type="text"  />
+    
+        
+  <a href="#" id="datePickerstart_restrict"  title="Date Selection Calendar" class="datePickerButton browseIcon " ><img src="/images/ci/ng/small_date.gif" alt="Date Selection Calendar - After"></a>
+  <div id="d_restrict_start_date" class="quickAddPal calPicker">
+  </div>
+   <input type="hidden" value="" id="restrictstart" name="restrict_start_datetime"/>
+   <input type="hidden" value="" name="pickdate"/>
+   <input type="hidden" value="" name="pickname"/>
+
+        
+<label for="tp_restrict_start_time" class="hideoff">Start Time</label>
+<span class="dateTimeErrorDiv"></span>
+<input size="14" id="tp_restrict_start_time" name="restrict_start_time" class="timePickerInput"  type="text"  />
+<a href="#" id="timePickerstart_restrict" title="Time Selection Menu" class="timePickerButton browseIcon ""><img src="/images/ci/ng/small_time.gif" alt="Time Selection Menu"></a>
+
+<div id="t_restrict_start_time" class="cmdiv timediv">
+  <ul>
+        <li><a href="#" bb:time="00:00">Midnight</a></li>
+        <li><a href="#" bb:time="00:30">12:30 AM</a></li>
+        <li><a href="#" bb:time="01:00">01:00 AM</a></li>
+        <li><a href="#" bb:time="01:30">01:30 AM</a></li>
+        <li><a href="#" bb:time="02:00">02:00 AM</a></li>
+        <li><a href="#" bb:time="02:30">02:30 AM</a></li>
+        <li><a href="#" bb:time="03:00">03:00 AM</a></li>
+        <li><a href="#" bb:time="03:30">03:30 AM</a></li>
+        <li><a href="#" bb:time="04:00">04:00 AM</a></li>
+        <li><a href="#" bb:time="04:30">04:30 AM</a></li>
+        <li><a href="#" bb:time="05:00">05:00 AM</a></li>
+        <li><a href="#" bb:time="05:30">05:30 AM</a></li>
+        <li><a href="#" bb:time="06:00">06:00 AM</a></li>
+        <li><a href="#" bb:time="06:30">06:30 AM</a></li>
+        <li><a href="#" bb:time="07:00">07:00 AM</a></li>
+        <li><a href="#" bb:time="07:30">07:30 AM</a></li>
+        <li><a href="#" bb:time="08:00">08:00 AM</a></li>
+        <li><a href="#" bb:time="08:30">08:30 AM</a></li>
+        <li><a href="#" bb:time="09:00">09:00 AM</a></li>
+        <li><a href="#" bb:time="09:30">09:30 AM</a></li>
+        <li><a href="#" bb:time="10:00">10:00 AM</a></li>
+        <li><a href="#" bb:time="10:30">10:30 AM</a></li>
+        <li><a href="#" bb:time="11:00">11:00 AM</a></li>
+        <li><a href="#" bb:time="11:30">11:30 AM</a></li>
+        <li><a href="#" bb:time="12:00">Noon</a></li>
+        <li><a href="#" bb:time="12:30">12:30 PM</a></li>
+        <li><a href="#" bb:time="13:00">01:00 PM</a></li>
+        <li><a href="#" bb:time="13:30">01:30 PM</a></li>
+        <li><a href="#" bb:time="14:00">02:00 PM</a></li>
+        <li><a href="#" bb:time="14:30">02:30 PM</a></li>
+        <li><a href="#" bb:time="15:00">03:00 PM</a></li>
+        <li><a href="#" bb:time="15:30">03:30 PM</a></li>
+        <li><a href="#" bb:time="16:00">04:00 PM</a></li>
+        <li><a href="#" bb:time="16:30">04:30 PM</a></li>
+        <li><a href="#" bb:time="17:00">05:00 PM</a></li>
+        <li><a href="#" bb:time="17:30">05:30 PM</a></li>
+        <li><a href="#" bb:time="18:00">06:00 PM</a></li>
+        <li><a href="#" bb:time="18:30">06:30 PM</a></li>
+        <li><a href="#" bb:time="19:00">07:00 PM</a></li>
+        <li><a href="#" bb:time="19:30">07:30 PM</a></li>
+        <li><a href="#" bb:time="20:00">08:00 PM</a></li>
+        <li><a href="#" bb:time="20:30">08:30 PM</a></li>
+        <li><a href="#" bb:time="21:00">09:00 PM</a></li>
+        <li><a href="#" bb:time="21:30">09:30 PM</a></li>
+        <li><a href="#" bb:time="22:00">10:00 PM</a></li>
+        <li><a href="#" bb:time="22:30">10:30 PM</a></li>
+        <li><a href="#" bb:time="23:00">11:00 PM</a></li>
+        <li><a href="#" bb:time="23:30">11:30 PM</a></li>
+        <li><a href="#" bb:time="23:59">End of Day</a></li>
+        <li class="contextmenubar_top">
+      <a href="#" id="a_restrict_start_time" title="Close Menu"><img src="/images/ci/ng/close_mini.gif" alt="Close Menu" ></a>
+    </li>
+  </ul>
+</div>
+</div>
+<span class="stepHelp fieldHelp" tabindex="0" id="">Enter dates as mm/dd/yyyy. Time may be entered in any increment.</span>         
+
+  <div >
+            <input id="end_restrict" type="checkbox" name="restrict_end_checkbox"  value=""  />
+            <label for="end_restrict"> 
+       Before
+     </label>     
+        
+            <label for="dp_restrict_end_date" class="hideoff">End Date</label>
+    <span class="dateTimeErrorDiv"></span>
+    <input size="14" id="dp_restrict_end_date" name="restrict_end_date" class="datePickerInput"   type="text" />
+        
+            
+    <a href="#" id="datePickerend_restrict"  title="Date Selection Calendar" class="datePickerButton browseIcon " ><img src="/images/ci/ng/small_date.gif" alt="Date Selection Calendar - Before"></a>
+    <div id="d_restrict_end_date" class="quickAddPal calPicker"></div>
+           <input type="hidden" value="" id="restrictend" name="restrict_end_datetime"/>
+     <input type="hidden" value="" name="pickdate"/>
+     <input type="hidden" value="" name="pickname"/>
+    
+                  
+<label for="tp_restrict_end_time" class="hideoff">End Time</label>
+<span class="dateTimeErrorDiv"></span>
+<input size="14" id="tp_restrict_end_time" name="restrict_end_time" class="timePickerInput"  type="text"  />
+<a href="#" id="timePickerend_restrict" title="Time Selection Menu" class="timePickerButton browseIcon ""><img src="/images/ci/ng/small_time.gif" alt="Time Selection Menu"></a>
+
+<div id="t_restrict_end_time" class="cmdiv timediv">
+  <ul>
+        <li><a href="#" bb:time="00:00">Midnight</a></li>
+        <li><a href="#" bb:time="00:30">12:30 AM</a></li>
+        <li><a href="#" bb:time="01:00">01:00 AM</a></li>
+        <li><a href="#" bb:time="01:30">01:30 AM</a></li>
+        <li><a href="#" bb:time="02:00">02:00 AM</a></li>
+        <li><a href="#" bb:time="02:30">02:30 AM</a></li>
+        <li><a href="#" bb:time="03:00">03:00 AM</a></li>
+        <li><a href="#" bb:time="03:30">03:30 AM</a></li>
+        <li><a href="#" bb:time="04:00">04:00 AM</a></li>
+        <li><a href="#" bb:time="04:30">04:30 AM</a></li>
+        <li><a href="#" bb:time="05:00">05:00 AM</a></li>
+        <li><a href="#" bb:time="05:30">05:30 AM</a></li>
+        <li><a href="#" bb:time="06:00">06:00 AM</a></li>
+        <li><a href="#" bb:time="06:30">06:30 AM</a></li>
+        <li><a href="#" bb:time="07:00">07:00 AM</a></li>
+        <li><a href="#" bb:time="07:30">07:30 AM</a></li>
+        <li><a href="#" bb:time="08:00">08:00 AM</a></li>
+        <li><a href="#" bb:time="08:30">08:30 AM</a></li>
+        <li><a href="#" bb:time="09:00">09:00 AM</a></li>
+        <li><a href="#" bb:time="09:30">09:30 AM</a></li>
+        <li><a href="#" bb:time="10:00">10:00 AM</a></li>
+        <li><a href="#" bb:time="10:30">10:30 AM</a></li>
+        <li><a href="#" bb:time="11:00">11:00 AM</a></li>
+        <li><a href="#" bb:time="11:30">11:30 AM</a></li>
+        <li><a href="#" bb:time="12:00">Noon</a></li>
+        <li><a href="#" bb:time="12:30">12:30 PM</a></li>
+        <li><a href="#" bb:time="13:00">01:00 PM</a></li>
+        <li><a href="#" bb:time="13:30">01:30 PM</a></li>
+        <li><a href="#" bb:time="14:00">02:00 PM</a></li>
+        <li><a href="#" bb:time="14:30">02:30 PM</a></li>
+        <li><a href="#" bb:time="15:00">03:00 PM</a></li>
+        <li><a href="#" bb:time="15:30">03:30 PM</a></li>
+        <li><a href="#" bb:time="16:00">04:00 PM</a></li>
+        <li><a href="#" bb:time="16:30">04:30 PM</a></li>
+        <li><a href="#" bb:time="17:00">05:00 PM</a></li>
+        <li><a href="#" bb:time="17:30">05:30 PM</a></li>
+        <li><a href="#" bb:time="18:00">06:00 PM</a></li>
+        <li><a href="#" bb:time="18:30">06:30 PM</a></li>
+        <li><a href="#" bb:time="19:00">07:00 PM</a></li>
+        <li><a href="#" bb:time="19:30">07:30 PM</a></li>
+        <li><a href="#" bb:time="20:00">08:00 PM</a></li>
+        <li><a href="#" bb:time="20:30">08:30 PM</a></li>
+        <li><a href="#" bb:time="21:00">09:00 PM</a></li>
+        <li><a href="#" bb:time="21:30">09:30 PM</a></li>
+        <li><a href="#" bb:time="22:00">10:00 PM</a></li>
+        <li><a href="#" bb:time="22:30">10:30 PM</a></li>
+        <li><a href="#" bb:time="23:00">11:00 PM</a></li>
+        <li><a href="#" bb:time="23:30">11:30 PM</a></li>
+        <li><a href="#" bb:time="23:59">End of Day</a></li>
+        <li class="contextmenubar_top">
+      <a href="#" id="a_restrict_end_time" title="Close Menu"><img src="/images/ci/ng/close_mini.gif" alt="Close Menu" ></a>
+    </li>
+  </ul>
+</div>
+    </div>
+  
+  
+<!-- END date range picker -->
+
+
+
+
+
+        &nbsp;
+        
+
+
+
+  <a href="javaScript:executeSearch()"
+            class="genericButton"      >
+    Go
+  </a>
+
+</li>
+    </ol>
+    </fieldset>
+   
+</form>
+
+
+      <a href="#" title="Close Search" class="close" onClick="actionPanel.togglePanel('panelsearchActionButtonId','searchActionButtonId'); return false;"><img src="/images/ci/ng/close_mini.gif" alt="Close Search" ></a>
+  </div>  
+
+
+
+		    <!-- End Action Panel List. -->
+</div>
+
+      <div class="container clearfix" id="containerdiv">
+    <h2 class="hideoff">Content</h2>
+    <script type="text/javascript" src="/webapps/achievements/js/achievement.js"></script><script src="/javascript/scriptaculous/version_pinned_scriptaculous.js"></script><link rel="stylesheet" href="/webapps/achievements/css/achievements.css" type="text/css" media="screen" /><script type="text/javascript">
+new Ajax.Request('/webapps/achievements/checkAchievements.form', {
+method:'get',
+asynchronous:true,
+parameters: {courseId: '_36802_1', type: 1 },
+onSuccess: function(response) {
+var jsonArray = response.responseJSON;
+handleAchievements(jsonArray);
+},
+onFailure: function() { alert('Something went wrong...'); }
+});
+</script><!-- TODO: remove? -->
+<!-- updated code for fixing LRN-52037 -->
+<!-- message_js.jspf -->
+
+<script type='text/javascript'>
+var treeUrl = "/webapps/discussionboard/do/message?action=message_tree&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry&thread_id=_2316717_1";
+var singleMessageUrl = "/webapps/discussionboard/do/message?action=single_message&thread_id=_2316717_1&course_id=_36802_1&conf_id=41027&forum_id=108407&message_id=";
+var messageUrl = "/webapps/discussionboard/do/message?action=message_frame&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry&thread_id=_2316717_1";
+var displayUrl = "/webapps/discussionboard/do/message?action=message_frame&course_id=_36802_1&conf_id=41027&forum_id=108407&nav=db_thread_list_entry&nav=discussion_board_entry";
+var detailUrl  = "/webapps/discussionboard/do/message?action=message_frame&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&conf_id=41027&nav=discussion_board_entry"; // conf ID needed here?
+var collectUrl = "/webapps/discussionboard/do/message?action=collect&requestType=msg&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry";
+var currentMessageId = "_2316717_1";
+var addFlagUrl = "/webapps/discussionboard/do/message?action=add&request_source=detail_page&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&nav=discussion_board_entry&nav=discussion_board_entry&thread_id=_2316717_1";
+var clearFlagUrl = "/webapps/discussionboard/do/message?action=clear&request_source=detail_page&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&nav=discussion_board_entry&nav=discussion_board_entry&thread_id=_2316717_1";
+var markReadUrl = "/webapps/discussionboard/do/message?action=mark_read&request_source=detail_page&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry";
+var markUnreadUrl = "/webapps/discussionboard/do/message?action=mark_unread&request_source=detail_page&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry";
+var replyUrl = "/webapps/discussionboard/do/message?action=reply&isInline=true&requestType=message&course_id=_36802_1&conf_id=41027&thread_id=_2316717_1&nav=discussion_board_entry&forum_id=108407&message_id=";
+var deleteUrl = "/webapps/discussionboard/do/message?action=delete_attach&do=remove&nav=db_thread_list_entry&nav=discussion_board_entry";
+var quoteUrl = "/webapps/discussionboard/do/message?action=reply&isInline=true&requestType=message&course_id=_36802_1&conf_id=41027&thread_id=_2316717_1&nav=discussion_board_entry&quote=true&forum_id=108407&message_id=";
+var modifyUrl = "/webapps/discussionboard/do/message?action=modify&isInline=true&requestType=message&course_id=_36802_1&conf_id=41027&thread_id=_2316717_1&nav=discussion_board_entry&forum_id=108407&message_id=";
+var subscribeUrl = "/webapps/discussionboard/do/message?action=email&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&conf_id=41027&nav=discussion_board_entry";
+var postUrl = "/webapps/discussionboard/do/message?action=message_frame&course_id=_36802_1&conf_id=41027&forum_id=108407&nav=db_thread_list_entry&nav=discussion_board_entry&message_id=";
+var rateUrl = "/webapps/discussionboard/do/message?action=rate&course_id=_36802_1&conf_id=41027&forum_id=108407&nav=db_thread_list_entry&nav=discussion_board_entry&rate_post=";
+var removeUrl = "/webapps/discussionboard/do/message?action=delete_post&do=remove&course_id=_36802_1&conf_id=41027&thread_id=_2316717_1db_thread_list_entry&nav=discussion_board_entry&forum_id=108407&message_id=";
+var searchUrl = "/webapps/discussionboard/do/message?action=search&thread_id=_2316717_1&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&nav=discussion_board_entry&nav=discussion_board_entry&search_type=message";
+var strSelect = "Use the check boxes to select items.";
+var strConfirmRemove = "Warning: This action will delete this post and all replies to the post in this thread. Continue?";
+var hideLabel = "Hide";
+var showLabel = "Show";
+var upLabel = "Swap Up";
+var downLabel = "Swap Down";
+var expandLabel = "Maximize";
+var collapseLabel = "Minimize";
+var restoreLabel = "Restore to Minimum";
+var flagOnLabel = "Set Flag";
+var flagOffLabel = "Clear Flag";
+var currPos = "bottom";  // this should be retrieved from cookie or session
+var currHide = "block"; // this should be retrieved from cookie or session
+var collectUnreadUrl = '/webapps/discussionboard/do/message?action=collect&requestType=unread_user_thread&status=unread&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&nav=discussion_board_entry&nav=discussion_board_entry&message_id=_2316717_1&request_source=detail_page';
+var collectUnreadRepliesToMeUrl = '/webapps/discussionboard/do/message?action=collect&requestType=unread_replies_to_me_user_thread&status=unread&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&nav=discussion_board_entry&nav=discussion_board_entry&message_id=_2316717_1&request_source=detail_page';
+var previousPostLocalizedString = 'Move to previous message';
+var nextPostLocalizedString = 'Move to next message';
+var initializedSelectAll = false;
+
+var gotoThread = function (id, direction) {
+  window.location.href = "message?action=list_messages&course_id=_36802_1&nav=discussion_board_entry&conf_id=_41027_1&forum_id=_108407_1&message_id=" + id + "&switch=" + (direction === 0 ? "prev" : "next");
+}
+</script>
+
+<div id="threadArea" class="db-conversation">
+
+  <div id="top_list_action_bar" class="rumble_top checked_top clearfix">
+    <div class="listItemSelect">
+      <span id="uniqueIdTop" aria-hidden="true">Select:</span>
+      <a href="#" onClick="return false;" id="selectAll_top" aria-label="Select&#x3a;All">All</a>
+      <a href="#" onClick="return false;" id="selectNone_top" aria-label="Select&#x3a;None">None</a>
+    </div>
+    <h3 class="hideoff">List Actions</h3>
+  <ul class="nav clearfix">
+    <li class="sub"><a href="#" id="messageDetailActionMenu">Message Actions&nbsp;<img src="/images/ci/ng/expand.gif" alt="(Click to see options)"></a>
+    <ul>
+      <li><a href="javascript:bulkMarkRead();">Read</a></li>
+      <li><a href="javascript:bulkMarkUnread();">Unread</a></li>
+      <li><a href="javascript:bulkSetFlag();">Set Flag</a></li>
+      <li><a href="javascript:bulkClearFlag();">Clear Flag</a></li>
+      <li><a href="javascript:validateCollect(document.getElementById('forumMessagesContainer'));">Collect</a></li>
+    </ul>
+    </li>
+    <li><a href="javascript:expandAllMessagesInTheTree();" role="button">Expand All</a></li>
+    <li><a href="javascript:collapseAllMessagesInTheTree();" role="button">Collapse All</a></li>
+  </ul></div>
+
+  <form  method="post" name="countForm" id="countForm">
+
+<div class="thread-controls-top clearfix">
+    <div class="navigationBar">
+      <div>
+          <button type="button" title="First Thread" onclick="gotoThread('_2312350_1', 0)"><img id="firstItemImg" src="/images/ci/ng/small_rewind.gif" alt="First Thread"></button>
+          <button type="button" title="Previous Thread" onclick="gotoThread('_2316681_1', 0)"><img id="prevItemImg" src="/images/ci/ng/small_previous.gif" alt="Previous Thread"></button>
+        </div>
+      <div class="text-area">Thread 10 of 19</div>
+
+      <div>
+          <button type="button" title="Next Thread" onclick="gotoThread('_2316721_1', 1)"><img id="nextItemImg" src="/images/ci/ng/small_next.gif" alt="Next Thread"></button>
+          <button type="button" title="Last Thread" onclick="gotoThread('_2316991_1', 1)"><img id="lastItemImg" src="/images/ci/ng/small_ffwd.gif" alt="Last Thread"></button>
+        </div>
+      </div><div class="dbThreadInfo">
+      <div tabindex="0">
+          <span id="totalPostsCount"></span> Post(s) in this Thread</div>
+
+      <div tabindex="0" class="unread-posts">
+        <span id="unreadPostsCount"></span>
+          Unread</div>
+      
+      <div tabindex="0" class="unread-replies-to-me-posts">
+        <span id="unreadRepliesToMePostsCount"></span>
+          Replies to me</div>
+    </div>
+  </div>
+  
+</form>
+
+</div>
+<div id="tree" class="has-avatar">
+    <span class="loadingElipse">
+      Loading Thread...</span>
+  </div>
+
+  <div id="collectLoadingMsg" style="display: none;">
+    <span class="loadingElipse">
+      <img src="/images/ci/misc/progress/progress_learningSystem.gif" alt=""/> &nbsp;
+      Loading Collection Page...</span>
+  </div>
+
+  <div id="bottom_list_action_bar" class="rumble checked clearfix">
+    <div class="listItemSelect">
+      <span id="uniqueIdBottom" aria-hidden="true">Select:</span>
+      <a href="#" onClick="return false;" id="selectAll_bottom" aria-label="Select&#x3a;All">All</a>
+      <a href="#" onClick="return false;" id="selectNone_bottom" aria-label="Select&#x3a;None">None</a>
+    </div>
+    <h3 class="hideoff">List Actions</h3>
+  <ul class="nav clearfix">
+    <li class="sub"><a href="#" id="messageDetailActionMenu">Message Actions&nbsp;<img src="/images/ci/ng/expand.gif" alt="(Click to see options)"></a>
+    <ul>
+      <li><a href="javascript:bulkMarkRead();">Read</a></li>
+      <li><a href="javascript:bulkMarkUnread();">Unread</a></li>
+      <li><a href="javascript:bulkSetFlag();">Set Flag</a></li>
+      <li><a href="javascript:bulkClearFlag();">Clear Flag</a></li>
+      <li><a href="javascript:validateCollect(document.getElementById('forumMessagesContainer'));">Collect</a></li>
+    </ul>
+    </li>
+    <li><a href="javascript:expandAllMessagesInTheTree();" role="button">Expand All</a></li>
+    <li><a href="javascript:collapseAllMessagesInTheTree();" role="button">Collapse All</a></li>
+  </ul></div>
+
+  <input type="hidden" name="tab_id" id="tab_id" value=""      />
+
+
+ 
+
+
+
+<p class="backLink">
+
+  <a href="/webapps/discussionboard/do/forum?action=list_threads&course_id=_36802_1&conf_id=_41027_1&forum_id=_108407_1&message_id=_2316717_1&nav=discussion_board_entry&nav=discussion_board_entry"
+                  >
+    OK
+  </a>
+
+</p>
+
+   </div>
+   
+     </div>
+   </div> 
+   </div>
+   </div>  
+</div></div>
+<script type='text/javascript'>var resizeIframeListener = window.addEventListener('message', function(e) {
+    try {
+        var postMessageData = e.data;
+        if (postMessageData.messageType === "kms-transcript" && postMessageData.entryId !== undefined) {
+            var items = Array.from(document.querySelectorAll(".liItem"));
+            if (items.length === 0) {                items = Array.from(document.querySelectorAll("#announcementList li"));
+            }            items.forEach(function(item) {
+                var iframe = item.getElementsByTagName("iframe")[0];
+                if (iframe !== undefined && iframe.getAttribute("src").indexOf(postMessageData.entryId) >= 0) {
+                    iframe.style.height = "800px";
+                    iframe.parentElement.style.height = "800px";
+                }
+            });
+        }
+    }
+    catch(ex) {
+        console.error("encountered error in kms communication", ex);
+    }
+});</script><script type='text/javascript'> if (!Array.prototype.includes) {
+    Object.defineProperty(Array.prototype, 'includes', {
+        value: function(searchElement, fromIndex) {
+            var o = Object(this);
+            var len = o.length >>> 0;
+            if (len === 0) {
+                return false;
+            }
+            var n = fromIndex | 0;
+            var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+            function sameValueZero(x, y) {
+                return x === y || (typeof x === 'number' && typeof y === 'number' && isNaN(x) && isNaN(y));
+            }
+
+            while (k < len) {
+                if (sameValueZero(o[k], searchElement)) {
+                    return true;
+                }
+                k++;
+            }
+
+            return false;
+        }
+    });
+}
+
+/** this function IS used. see com/kaltura/bb/util/JspTopFrameStartHookHandler.java:48 **/
+var replaceKalturaIframeTokens = function(contentIdsToReplace, courseId) {
+    var contentItems = Array.prototype.slice.call(document.querySelectorAll('[id^="contentListItem"]'));
+    contentItems = contentItems.filter(function(contentItem) {
+        var contentId = contentItem.id.split(':')[1];
+        return contentIdsToReplace.includes(contentId);
+    });
+
+    contentItems.forEach(function(contentItem) {
+        var contentId = contentItem.id.split(':')[1];
+        var innerIframes = Array.prototype.slice.call(contentItem.querySelectorAll('iframe'));
+        var kalturaIframe = innerIframes.filter(function(iframeElement) {
+            return iframeElement.src.indexOf('osv-kaltura') !== -1;
+        });
+
+        if(kalturaIframe.length !== 1) {
+            return;
+        }
+
+        var kalturaIframeElement = kalturaIframe[0],
+            iframeSrc = kalturaIframeElement.src;
+
+        iframeSrc = iframeSrc
+            .replace('course_id=', 'course_id_old=')
+            .replace('course_id%3D', 'course_id_old%3D')
+            .replace('content_id=', 'content_id_old=')
+            .replace('content_id%3D', 'content_id_old%3D');
+        iframeSrc += '&course_id=' + courseId + '&content_id=' + contentId;
+
+        kalturaIframeElement.src = iframeSrc;
+    });
+};
+
+var addCourseIdIfMissing = function (courseId) {
+    var items = Array.from(document.querySelectorAll("a[href*='viewContent1_Iframe']"));
+    items = items.concat(Array.from(document.querySelectorAll("a[href*='LtiMashupPlayIframeWrapper']")));
+    items = items.concat(Array.from(document.querySelectorAll("iframe[src*='LtiMashupPlayIframeWrapper']")));
+    items.forEach(function(videoLink) {
+        var isIframe = (videoLink.tagName === 'IFRAME'); 
+        var videoHref = isIframe ? videoLink.src : videoLink.href;
+        var hrefParts = videoHref.split('&');
+        var wrongCourseId = null;
+        hrefParts.forEach(function(part){
+           part = part.split('=');
+           if (part.length > 1 && part[0] === 'course_id') {
+               if (part[1] !== courseId) { wrongCourseId = part[1]; }           }
+        });
+        if (wrongCourseId !== null) { videoHref.replace(wrongCourseId, courseId) }
+        if (videoHref !== undefined && videoHref.indexOf("course_id=") === -1) {
+            videoHref += "&course_id=" + courseId;
+            if (isIframe) {videoLink.src = videoHref}
+            else {videoLink.href = videoHref;}
+        }
+    });
+};</script><script type='text/javascript'>addCourseIdIfMissing('_36802_1')</script>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');page.bundle.addKey('dbui.rating.average.rating.announcement','Overall rating of the message is {0}.');page.bundle.addKey('dbui.rating.average.rating.announcement.with.user.rating.instruction','Overall rating of the message is {0}. Your rating of the message is {1}. Use arrow keys to change rating on this message.');page.bundle.addKey('message.collapse.n.replies.n.unread.one','Hide {0} reply ({1} unread)');page.bundle.addKey('message.collapse.n.replies.n.unread','Hide {0} replies ({1} unread)');page.bundle.addKey('dbui.collect.thread.colon.strong','Thread: {0}');page.bundle.addKey('dbui.action.setflag','Set Flag');page.bundle.addKey('dbui.action.clearflag','Clear Flag');page.bundle.addKey('dbui.action.markasunread','Mark as Unread');page.bundle.addKey('dbui.action.markasread','Mark as Read');page.bundle.addKey('dbui.message.age.negative.time','({0})');page.bundle.addKey('dbui.message.age.now','Just now');page.bundle.addKey('dbui.message.age.minutes','{0} minutes ago');page.bundle.addKey('dbui.message.age.minutes.one','{0} minute ago');page.bundle.addKey('dbui.message.age.hours','{0} hours ago');page.bundle.addKey('dbui.message.age.hours.one','{0} hour ago');page.bundle.addKey('dbui.message.age.days','{0} days ago');page.bundle.addKey('dbui.message.age.days.one','{0} day ago');page.bundle.addKey('dbui.message.age.months','{0} months ago');page.bundle.addKey('dbui.message.age.months.one','{0} month ago');page.bundle.addKey('dbui.message.age.years','{0} years ago');page.bundle.addKey('dbui.message.age.years.one','{0} year ago');page.bundle.addKey('dbui.message.age.posted.title','Posted : {0}');page.bundle.addKey('dbui.message.age.posted.minutes','posted {0} minutes ago');page.bundle.addKey('dbui.message.age.posted.minutes.one','posted {0} minute ago');page.bundle.addKey('dbui.message.age.posted.hours','posted {0} hours ago');page.bundle.addKey('dbui.message.age.posted.hours.one','posted {0} hour ago');page.bundle.addKey('dbui.message.age.posted.days','posted {0} days ago');page.bundle.addKey('dbui.message.age.posted.days.one','posted {0} day ago');page.bundle.addKey('dbui.message.age.posted.months','posted {0} months ago');page.bundle.addKey('dbui.message.age.posted.months.one','posted {0} month ago');page.bundle.addKey('dbui.message.age.posted.years','posted {0} years ago');page.bundle.addKey('dbui.message.age.posted.years.one','posted {0} year ago');page.bundle.addKey('dbui.message.age.edited.title','Last edited : {0}');page.bundle.addKey('dbui.message.age.edited.minutes','last edited {0} minutes ago');page.bundle.addKey('dbui.message.age.edited.minutes.one','last edited {0} minute ago');page.bundle.addKey('dbui.message.age.edited.hours','last edited {0} hours ago');page.bundle.addKey('dbui.message.age.edited.hours.one','last edited {0} hour ago');page.bundle.addKey('dbui.message.age.edited.days','last edited {0} days ago');page.bundle.addKey('dbui.message.age.edited.days.one','last edited {0} day ago');page.bundle.addKey('dbui.message.age.edited.months','last edited {0} months ago');page.bundle.addKey('dbui.message.age.edited.months.one','last edited {0} month ago');page.bundle.addKey('dbui.message.age.edited.years','last edited {0} years ago');page.bundle.addKey('dbui.message.age.edited.years.one','last edited {0} year ago');page.bundle.addKey('dbui.message.editor.load','Loading Editor...');page.bundle.addKey('dbui.message.inlineposting.editor.open','Message editor is ready');page.bundle.addKey('dbui.message.inlineposting.reply.alreadyopen.leavewindow','You have an unsaved reply on this page. Do you want to stay and complete the message?');page.bundle.addKey('dbui.viewcounts.colon','Total views: {0} (Your views: {1})');page.bundle.addKey('message.collapse.n.replies','Hide {0} replies');page.bundle.addKey('message.collapse.n.replies.one','Hide {0} reply');page.bundle.addKey('message.expand.n.replies','Show {0} replies');page.bundle.addKey('message.expand.n.replies.one','Show {0} reply');page.bundle.addKey('message.expand.n.replies.n.unread','Show {0} replies ({1} unread)');page.bundle.addKey('message.expand.n.replies.n.unread.one','Show {0} reply ({1} unread)');page.bundle.addKey('message.load.error','An error occurred loading a message reply, please try reloading the page.');page.bundle.addKey('message.inline.error','An error occurred processing your request, please try reloading the page.');page.bundle.addKey('message.self.expand','Expand');page.bundle.addKey('message.self.collapse','Collapse');page.bundle.addKey('message.status.read','Message Read');page.bundle.addKey('message.status.unread','Message Unread');page.bundle.addKey('message.status.flagOn','Message Flagged');page.bundle.addKey('message.status.flagOff','Message Not Flagged');page.bundle.addKey('message.expand.post','Expand Post');page.bundle.addKey('message.collapse.post','Collapse Post');page.bundle.addKey('LOCALE_SETTINGS.TIME_ORDER.00519','HMP');page.bundle.addKey('LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207','0');page.bundle.addKey('LOCALE_SETTINGS.DAY_FULL.02098','Sunday Monday Tuesday Wednesday Thursday Friday Saturday');page.bundle.addKey('LOCALE_SETTINGS.DAY_SHORT.02097','SUN MON TUE WED THU FRI SAT');page.bundle.addKey('LOCALE_SETTINGS.MONTH_SHORT.00520','Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec');page.bundle.addKey('LOCALE_SETTINGS.MONTH_FULL.02100','January February March April May June July August September October November December');page.bundle.addKey('LOCALE_SETTINGS.DAYS.00521','01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31');page.bundle.addKey('LOCALE_SETTINGS.AM_PM.00522','AM PM');page.bundle.addKey('LOCALE_SETTINGS.24HR_SUPPORT.03208','0');page.bundle.addKey('LOCALE_SETTINGS.internal_date_format','MM/dd/yy');page.bundle.addKey('datePicker.close','Close Picker');page.bundle.addKey('datePicker.date.select','Date Selection Calendar');page.bundle.addKey('datePicker.date.daysOfWeek','Days of the Week');page.bundle.addKey('datePicker.validation.invalid.futureYear','The date cannot be a date in the future.');page.bundle.addKey('datePicker.validation.invalid.date','The date entered is not valid.');page.bundle.addKey('datePicker.validation.invalid.range_past','The end date cannot be earlier than the start date.');page.bundle.addKey('datePicker.validation.invalid.range_equal','The start date cannot be equal to the end date.');page.bundle.addKey('timePicker.validation.invalid.futureYear','The time cannot be a time in the future.');page.bundle.addKey('timePicker.validation.invalid.time','The time entered is not valid.');page.bundle.addKey('timePicker.validation.invalid.range_past','The end time cannot be earlier than the start time.');page.bundle.addKey('timePicker.validation.invalid.range_equal','The start time cannot be equal to the end time.');page.bundle.addKey('picker.alt.previous_month','Previous Month');page.bundle.addKey('picker.alt.next_month','Next Month');page.bundle.addKey('picker.alt.previous_year','Previous Year');page.bundle.addKey('picker.alt.next_year','Next Year');page.bundle.addKey('time.am','AM');page.bundle.addKey('time.pm','PM');page.bundle.addKey('month.long.jan','January');page.bundle.addKey('month.long.feb','February');page.bundle.addKey('month.long.mar','March');page.bundle.addKey('month.long.apr','April');page.bundle.addKey('month.long.may','May');page.bundle.addKey('month.long.jun','June');page.bundle.addKey('month.long.jul','July');page.bundle.addKey('month.long.aug','August');page.bundle.addKey('month.long.sep','September');page.bundle.addKey('month.long.oct','October');page.bundle.addKey('month.long.nov','November');page.bundle.addKey('month.long.dec','December');page.bundle.addKey('month.short.jan','Jan');page.bundle.addKey('month.short.feb','Feb');page.bundle.addKey('month.short.mar','Mar');page.bundle.addKey('month.short.apr','Apr');page.bundle.addKey('month.short.may','May');page.bundle.addKey('month.short.jun','Jun');page.bundle.addKey('month.short.jul','Jul');page.bundle.addKey('month.short.aug','Aug');page.bundle.addKey('month.short.sep','Sep');page.bundle.addKey('month.short.oct','Oct');page.bundle.addKey('month.short.nov','Nov');page.bundle.addKey('month.short.dec','Dec');page.bundle.addKey('day.long.sun','Sunday');page.bundle.addKey('day.long.mon','Monday');page.bundle.addKey('day.long.tue','Tuesday');page.bundle.addKey('day.long.wed','Wednesday');page.bundle.addKey('day.long.thu','Thursday');page.bundle.addKey('day.long.fri','Friday');page.bundle.addKey('day.long.sat','Saturday');page.bundle.addKey('day.short.sun','Sun');page.bundle.addKey('day.short.mon','Mon');page.bundle.addKey('day.short.tue','Tue');page.bundle.addKey('day.short.wed','Wed');page.bundle.addKey('day.short.thu','Thu');page.bundle.addKey('day.short.fri','Fri');page.bundle.addKey('day.short.sat','Sat');page.bundle.addKey('format.full','{6} {3}. {2}, {0}');page.bundle.addKey('format.full_abr','{5} {3}. {2}, {0}');page.bundle.addKey('format.month_year','{4} {0}');page.bundle.addKey('format.month_date_year','{4} {2}, {0}');page.bundle.addKey('format.day_month_year','{6}, {4} {2}, {0}');page.bundle.addKey('format.year','{0}');page.bundle.addKey('datepicker_checkbox_checked_value','1');page.bundle.addKey('action.show','Show');page.bundle.addKey('action.hide','Hide');page.bundle.addKey('filter.panel.button.title.show','Show Filter');page.bundle.addKey('filter.panel.button.title.hide','Hide Filter');page.bundle.addKey('coursemenu.show','Show Course Menu');page.bundle.addKey('coursemenu.hide','Hide Course Menu');page.bundle.addKey('dynamictree.expand','Expand');page.bundle.addKey('dynamictree.collapse','Collapse');page.bundle.addKey('dynamictree.expand.folder','Expand {0} tree folder');page.bundle.addKey('dynamictree.collapse.folder','Collapse {0} tree folder');page.bundle.addKey('dragdrop.accessible.error.chooseOption','Select an item first.');page.bundle.addKey('dragdrop.accessible.empty','No items available to reposition.');page.bundle.addKey('dragdrop.accessible.complete','Items have been reordered.');page.bundle.addKey('dragdrop.accessible.complete.nochange','No ordering changes made.');page.bundle.addKey('closeStr','Close');page.bundle.addKey('moreOptionsStr','Click to see options');page.bundle.addKey('hiddenStr','This link is hidden from students');page.bundle.addKey('emptyStr','This link has no content');page.bundle.addKey('entryPointChangeConfirmStr','The entry point will changed to the next available Content');page.bundle.addKey('subheaderColonStr','Subheader: {0}');page.bundle.addKey('confirmQuickEnrollStr','You will be given the role: {0}. Proceed?');page.bundle.addKey('enterSearchKeyStr','Enter Search Criteria.');page.bundle.addKey('courseWelcomePageLbTitle','Quick Setup Guide');page.bundle.addKey('expandCollapse.expand.section.nocolon','Expand');page.bundle.addKey('expandCollapse.collapse.section.nocolon','Collapse');page.bundle.addKey('expandCollapse.expand.section.param','Expand {0}');page.bundle.addKey('expandCollapse.collapse.section.param','Collapse {0}');page.bundle.addKey('tool.activity.description','activity updates');page.bundle.addKey('accessDeniedMsg','Access Denied');page.bundle.addKey('breadcrumbs.expand','Click to expand the breadcrumbs');</script>
+  <script type="text/javascript">
+   var course_id = "_36802_1";
+   var courseTitle = "Fall Term 2020 - Linux Administration (CIS-245-O1A) (7817.202009)";
+   var confirmDeleteMenuItemMsg = "Are you sure you want to delete this item?";
+   var confirmQuickUnenrollMsg = "Any user data created while quick enrolled in this course will be deleted. Proceed?";
+   var confirmQuickEnrollMsg = "You will be given the role: Instructor. Proceed?";
+   var inNewWindow = false;
+   var theCourseMenu;
+ </script>
+ 
+  <script type='text/javascript'>globalNavigation.init(); Event.observe(window, 'resize', globalNavigation.onResize);</script>
+  <script type="text/javascript">
+    page.bundle.addKey('globalnav.menu.expand','Expand\x20Global\x20Nav');
+    page.bundle.addKey('globalnav.menu.collapse','Collapse\x20Global\x20Nav');
+
+    function insertSkipLinkAfterBodyStart(referenceNode, newNode, linkContent)
+    {
+      if( top === self )
+      {
+        /* Evaluates if the page is not been loaded inside Iframe,
+        only attach skip-link in original view, not Ultra, because ultra has his own skip link. */
+        referenceNode.parentNode.insertBefore( newNode, referenceNode );
+        newNode.innerHTML = linkContent;
+      }
+    }
+
+    var skipLink = new Element('a',{id:'skip-to-content', href: '#content', tabIndex: '1'});
+    var learnBody = document.body.firstChild;
+    var linkContent = 'Skip\x20To\x20Content';
+    this.insertSkipLinkAfterBodyStart(learnBody, skipLink, linkContent);
+  </script>
+  
+  <script type="text/javascript">
+    page.bundle.addKey('quick_links.link.title','Navigate\x20to\x20element\x20\x7B1\x7D\x20of\x20type\x20\x7B2\x7D\x20in\x20\x7B0\x7D\x20frame');
+    page.bundle.addKey('quick_links.lightbox_title','Quick\x20Links');
+    page.bundle.addKey('quick_links.link_title','Open\x20Quick\x20Links');
+    page.bundle.addKey('quick_links.hotkey.shift','Shift');
+    page.bundle.addKey('quick_links.hotkey.control','Ctrl');
+    page.bundle.addKey('quick_links.hotkey.alt','Alt');
+    page.bundle.addKey('quick_links.hotkey.combination_divider','\x2B');
+  </script>
+  
+  <script type="text/javascript">quickLinks.initialize( [ 'null' ] );</script>
+  <script type="text/javascript">
+  		            globalNavMenu.init( true );
+  		          </script>
+  		        
+  <script type='text/javascript'> social.Profile.MY_PROFILE_TOOL_ID='BB-CORE_____myProfile'; social.Profile.MY_PROFILE_TOOL_URI='/webapps/bb-social-learning-BBLEARN/execute/mybb?cmd=display&toolId=BB-CORE_____myProfile&location='; </script>
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                page.decoratePageBanner();
+                                                             calendar._userFirstWeekDay='0';
+                                                             new calendar.DatePicker('restrict','2020-12-18 00:00:00','start','restrict','true','true','Today is: Friday, December 18, 2020','false',null,-18000000,'null'); 
+                                                             new calendar.TimePicker('restrict','2020-12-18 00:00:00','start','restrict','true','true','false','',null,-18000000,'','null'); 
+                                                             new calendar.DatePicker('restrict','2020-12-18 12:31:54','end','restrict','true','true','Today is: Friday, December 18, 2020','false',null,-18000000,'null'); 
+                                                             new calendar.TimePicker('restrict','2020-12-18 12:31:54','end','restrict','true','true','false','',null,-18000000,'','null'); 
+                                                             page.ContextMenu.hideMenuDiv('769c761ec56a4204b4f76cf5f9055df4');
+                                                             new page.PageHelpToggler(true, 'Help is On: Click to hide page help.', 'Help is Off: Click to show page help.', false );
+                                                             breadcrumbs.rightMostNavItem = 'db_thread_list_entry';
+                                                             breadcrumbs.rightMostParentURL = '/webapps/discussionboard/do/forum?action=list_threads&forum_id=_108407_1&conf_id=_41027_1&course_id=_36802_1&nav=discussion_board_entry';
+                                                             new page.PageMenuToggler(true,'courseMenuToggle_36802_1', true);
+                                                             courseMenu.nonceKey = 'blackboard.platform.security.NonceUtil.nonce.ajax';
+                                                             courseMenu.nonceValue = '331a003b-4ebd-403f-8576-ca0f9dee9d51';
+                                                             new page.PaletteController('courseMenuPalette', 'courseMenu_link', false, false);
+                                                             theCourseMenu = new courseMenu.CourseMenu('/webapps/blackboard/execute/doCourseMenuAction', '/webapps/blackboard/execute/getCourseMenuContextMenu');
+                                                             tool_service.init ('300000', 'Suppress-Session-Timestamp-Update' );
+                                                             if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             AllyIntegration.initJWT('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJBTExZIiwic3ViIjoiQUxMWV9UT0tFTiIsImZpbGVJZHMiOltdLCJjb3Vyc2VSb2xlIjoidW5wcml2aWxlZ2VkIiwiaXNzIjoiQmNHOFR3WmFsQWJmd2o5WEl5SzdrSklaNVVITVlaM1giLCJleHAiOjE2MDgzMTMwMTQsImlhdCI6MTYwODMxMjcxNCwiY291cnNlSWQiOiJfMzY4MDJfMSIsInVzZXJJZCI6Il83NzM1OF8xIn0.YmIpcvhDr3W1zK2svuFNjG6KoklSnYLPObqjh2Yxyms');
+                                                             AllyIntegration.initAllyJSConfigs('prod.ally.ac','114');
+                                                             jQuery.getScript('//' + window.ALLY_CFG.baseUrl + '/integration/learn/ally.js');
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadTreeAndScrollToMessage('_2316717_1');
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":45,"applicationID":"9734725","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgFUBBVRUZDD1kLWwtXE11NRURHRRJFS1gHQghWDUUeeFUVRQReAXcCTQpZXg==","queueTime":0}</script>
+</body>
+</html>
